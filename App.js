@@ -1,12 +1,8 @@
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import {Text} from 'react-native';
 
 const App = () => {
-  return (
-    <SafeAreaView>
-      <Text>Hello World!</Text>
-    </SafeAreaView>
-  );
+  return <Text>Hello World!</Text>;
 };
 
 export default App;
